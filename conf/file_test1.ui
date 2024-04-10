@@ -209,6 +209,15 @@
                                 "method": "scan_wifi",
                                 "postExecute": "",
                                 "alias": ""
+                            },
+                            {
+                                "event": "onStart",
+                                "action": "run",
+                                "listener": "",
+                                "type": "python",
+                                "method": "scan_wifi",
+                                "postExecute": "",
+                                "alias": ""
                             }
                         ]
                     }
