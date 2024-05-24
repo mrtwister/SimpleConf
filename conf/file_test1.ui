@@ -286,7 +286,7 @@
                 "alias": ""
             },
             {
-                "event": "onBackgroundCommand",
+                "event": "",
                 "action": "run",
                 "listener": "",
                 "type": "online",
