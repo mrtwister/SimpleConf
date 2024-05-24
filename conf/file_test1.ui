@@ -236,7 +236,7 @@
                                 "listener": "",
                                 "type": "python",
                                 "method": "scan_wifi",
-                                "postExecute": "",
+                                "postExecute": "[{\"action\": \"runasync\", \"type\": \"online\", \"method\": \"test\"}]",
                                 "alias": ""
                             }
                         ]
