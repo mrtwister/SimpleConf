@@ -227,7 +227,7 @@
                                 "listener": "btn_scan",
                                 "type": "python",
                                 "method": "scan_wifi",
-                                "postExecute": "",
+                                "postExecute": "[{\"action\": \"runasync\", \"type\": \"online\", \"method\": \"test\"}]",
                                 "alias": ""
                             },
                             {
@@ -236,7 +236,7 @@
                                 "listener": "",
                                 "type": "python",
                                 "method": "scan_wifi",
-                                "postExecute": "[{\"action\": \"runasync\", \"type\": \"online\", \"method\": \"test\"}]",
+                                "postExecute": "",
                                 "alias": ""
                             }
                         ]
